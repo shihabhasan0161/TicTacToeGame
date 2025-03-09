@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Tic Tac Toe❌⭕ <!--<img src="images/x.png" alt="X" class="x"> <img src="images/o.png" alt="O" class="o">--></h1>
+    <div class="scoreBoard">
+
+        <div class="playerX">
+            <h2>Player X</h2>
+            <p>Wins: <span id="playerXWins">0</span></p>
+        </div>
+        <div class="playerO">
+            <h2>Player O</h2>
+            <p>Wins: <span id="playerOWins">0</span></p>
+        </div>
+        <div class="draw">
+            <h2>Draw</h2>
+            <p>Games: <span id="drawGames">0</span></p>
+    </div>
+    <div class="board">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+        <div class="box" id="box4"></div>
+        <div class="box" id="box5"></div>
+        <div class="box" id="box6"></div>
+        <div class="box" id="box7"></div>
+        <div class="box" id="box8"></div>
+        <div class="box" id="box9"></div>
+    </div>
+    <div class="button">
+        <input type="button" value="Refresh Board" id="refreshButton">
+        <input type="button" value="Reset Scores" id="resetButton">
+    </div>
+    <script src="index.js" defer></script>
+
+    <footer>
+        <p>Crafted with 💻 by <a href="https://github.com/shihabhasan0161">Shihab Hasan</a></p>
+    </footer>
+</body>
+</html>
